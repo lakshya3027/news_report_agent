@@ -1,0 +1,17 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.6",
+    "@langchain/google-genai": "^0.2.15",
+    "@langchain/openai": "^0.6.1",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.20"
+  }
+}
